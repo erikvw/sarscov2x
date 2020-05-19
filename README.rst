@@ -78,6 +78,7 @@ The config files involved:
 
 The flow is ``git push to GitHub repo--> repo change triggers TravisCI --> all tests pass --> TravisCI passes on to CodeCov
 
+And if all goes well, your badges turn green!
 
 
 References::
