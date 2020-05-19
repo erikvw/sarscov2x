@@ -99,6 +99,9 @@ References:
     https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
     
     https://docs.travis-ci.com/user/job-lifecycle/
+    
+    https://docs.travis-ci.com/user/environment-variables/#default-environment-variables
+
 
 .. |pypi| image:: https://img.shields.io/pypi/v/sarscov2x.svg
     :target: https://pypi.python.org/pypi/sarscov2x
