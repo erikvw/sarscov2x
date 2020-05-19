@@ -1,13 +1,9 @@
-from pprint import pprint
-
 from django.test import TestCase
 from django.urls import reverse
-from edc_utils import get_utcnow
-from model_bakery.baker import make_recipe, prepare_recipe
+from model_bakery.baker import prepare_recipe
 
-from .forms import CoronavirusKapForm
 from .baker_recipes import coronaviruskap_options
-from .models import CoronavirusKap
+from .forms import CoronavirusKapForm
 
 
 class TestCorona(TestCase):
@@ -22,9 +18,7 @@ class TestCorona(TestCase):
             subject_identifier=screening_identifier,
             screening_identifier=screening_identifier,
         )
-        form = CoronavirusKapForm(
-            data=coronaviruskap_options,
-        )
+        form = CoronavirusKapForm(data=coronaviruskap_options)
         form.is_valid()
         self.assertEqual(form._errors, {})
 
@@ -36,7 +30,5 @@ class TestCorona(TestCase):
         )
         opts = {k: v for k, v in coronaviruskap_options.items() if v is not None}
         url = reverse("admin:coronavirus_coronaviruskap_add")
-        response = self.client.post(url)
+        response = self.client.post(url, opts)
         self.assertEqual(response.status_code, 302)
-
-django_webtest
