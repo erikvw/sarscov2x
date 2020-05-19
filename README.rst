@@ -6,7 +6,7 @@ sarscov2x
 This is a sample ``Django`` application for use in a talk on how to configure your python project to use TravisCI. The production Django app for this simple Coronavirus KAP tool (Knowledge, Attitudes, and Practice) is available at sarscov2_. The tool is currently being administered in Tanzania.
 
 Installing the sample ``Django`` application
----------------------------------
+--------------------------------------------
 
 If you want, you can install the Django app. When installed you can easily inspect the ``.travis.yml`` and ``tox.ini`` and perhaps run the tests locally. 
 
@@ -16,7 +16,7 @@ First, set up a python environment.
 
 I use miniconda_ to build and manage my python environments. You will need to install miniconda_ so go to the the miniconda_ docs and select the installer for your OS.
 
-After the installing miniconda_, open a terminal and create a new python environment using the ``conda``command::
+After the installing miniconda_, open a terminal and create a new python environment using the ``conda`` command::
 
     conda create -n edc python=3.8
 
@@ -79,7 +79,12 @@ The config files involved:
 * ``tox.ini``: easy way to run your tests in a fresh environment locallay and to run a matrix of environments remotely on TravisCI
 * ``setup.cfg``: specify ``flake8`` config. ``Flake8`` (PEP8 rules) is good to run before your tests. Less important if you use a formatter like ``black``.
 
-The flow is ``git push to GitHub repo--> repo change triggers TravisCI --> all tests pass --> TravisCI passes on to CodeCov
+The flow is:
+
+* --> ``git push`` to GitHub repo
+* --> repo change triggers TravisCI
+* --> on TravisCI all tests pass (you hope)
+* --> TravisCI hands over to CodeCov
 
 And if all goes well, your badges turn green!
 
