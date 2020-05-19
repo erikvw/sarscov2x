@@ -3,16 +3,16 @@
 sarscov2x
 =========
 
-This is a sample application for use in a talk on how to configure your python project to use TravisCI.
+This is a sample ``Django`` application for use in a talk on how to configure your python project to use TravisCI. The production Django app for this simple Coronavirus KAP tool (Knowledge, Attitudes, and Practice) is available at sarscov2_. The tool is currently being administered in Tanzania.
 
-Installing the sample application
+Installing the sample ``Django`` application
 ---------------------------------
 
-If you want, you can install the Django app. This will be useful so that you inspect the ``.travis.yml`` and ``tox.ini`` and perhaps run the tests. 
+If you want, you can install the Django app. When installed you can easily inspect the ``.travis.yml`` and ``tox.ini`` and perhaps run the tests locally. 
 
-To do so, follow the steps below.
+To do so, follow the steps below to create a python environment, install the dependencies, prepare the Django apps DB, create a user account, and loads a local test web server.
 
-First, let's set up a python environment. We'll install and run the ``Django`` app in the new python environment.
+First, set up a python environment.
 
 I use miniconda_ to build and manage my python environments. You will need to install miniconda_ so go to the the miniconda_ docs and select the installer for your OS.
 
@@ -20,7 +20,7 @@ After the installing miniconda_, open a terminal and create a new python environ
 
     conda create -n edc python=3.8
 
-That created an environment named "edc" with python 3.8.
+Your new python env is named "edc" and runs python 3.8.
 
 Next, activate your new environment::
 
@@ -43,22 +43,25 @@ This is a simple Django application that uses ``sqlite`` as the DB. To create th
     
 Next, create your user account::
 
+    # run and follow the prompts
     python manage.py createsuperuser
 
 Next, start up the test webserver::
 
     python manage.py runserver
 
-... and open your browser and navigate to::
+Lastly, open your browser and navigate to::
 
     http://localhost:8000
 
 PEP8, tests, tox and TravisCI, code coverage
 --------------------------------------------
 
-Other utils
-+++++++++++
-* tox_
+TravisCI is just part of what can be used to simplify checking your code (flake8), running all your tests against multiple environments (tox and travis) while finally checking that your test coverage is still where you want it to be.
+
+Together with TravisCI
+++++++++++++++++++++++
+* tox_ (pip install tox)
 * flake8 (pip install flake8)
 * others (black_, gitflow_, coverage_, codecov_)
 
@@ -107,3 +110,6 @@ References::
 .. _coverage: https://coverage.readthedocs.io/en/coverage-5.1/
 
 .. _codecov: https://codecov.io
+
+.. _sarscov2: https://github.com/erikvw/sarscov2
+
