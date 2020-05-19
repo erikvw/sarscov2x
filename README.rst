@@ -60,7 +60,7 @@ Other utils
 +++++++++++
 * tox_
 * flake8 (pip install flake8)
-* others (black_, gitflow, codecov)
+* others (black_, gitflow_, codecov)
 
 Integration with GitHub
 +++++++++++++++++++++++
@@ -97,6 +97,8 @@ References::
 
 .. _miniconda: https://docs.conda.io/en/latest/miniconda.html
 
-.. tox_: https://tox.readthedocs.io/en/latest/
+.. _tox: https://tox.readthedocs.io/en/latest/
 
-.. black_: https://black.readthedocs.io/en/stable/
+.. _black: https://black.readthedocs.io/en/stable/
+
+.. _gitflow: https://nvie.com/posts/a-successful-git-branching-model/
