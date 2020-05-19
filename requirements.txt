@@ -8,3 +8,4 @@ git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
 tox
 flake8
 black
+coverage
