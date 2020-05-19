@@ -3,7 +3,9 @@
 sarscov2x
 =========
 
-This is a sample ``Django`` application for use in a talk on how to configure your python project to use TravisCI. The production Django app for this simple Coronavirus KAP tool (Knowledge, Attitudes, and Practice) is available at sarscov2_. The tool is currently being administered in Tanzania.
+This is a sample ``Django`` application for use in a talk for our python meetup online meeting_ on how to configure your python project to use TravisCI. The production Django app for this simple Coronavirus KAP tool (Knowledge, Attitudes, and Practice) is available at sarscov2_. The tool is currently being administered in Tanzania.
+
+There are a number of variations on how this can be done ... this is what works for me.
 
 Installing the sample ``Django`` application
 --------------------------------------------
@@ -89,11 +91,13 @@ The flow is:
 And if all goes well, your badges turn green!
 
 
-References::
+References:
 
     https://docs.travis-ci.com/user/tutorial/
 
     https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
+    
+    https://docs.travis-ci.com/user/job-lifecycle/
 
 .. |pypi| image:: https://img.shields.io/pypi/v/sarscov2x.svg
     :target: https://pypi.python.org/pypi/sarscov2x
@@ -118,3 +122,4 @@ References::
 
 .. _sarscov2: https://github.com/erikvw/sarscov2
 
+.. _meeting: https://www.meetup.com/austinpython/events/266446518/
