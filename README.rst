@@ -102,6 +102,7 @@ References:
     
     https://docs.travis-ci.com/user/environment-variables/#default-environment-variables
 
+    https://www.atlassian.com/continuous-delivery/continuous-integration/how-to-get-to-continuous-integration
 
 .. |pypi| image:: https://img.shields.io/pypi/v/sarscov2x.svg
     :target: https://pypi.python.org/pypi/sarscov2x
