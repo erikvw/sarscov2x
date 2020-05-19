@@ -3,7 +3,7 @@
 sarscov2x
 =========
 
-This is a sample ``Django`` application for use in a talk on how to configure your python project to use TravisCI. The production Django app for this simple Coronavirus KAP tool (Knowledge, Attitudes, and Practice) is available at sarscov2_. The tool is currently being administered in Tanzania.
+This is a sample ``Django`` application for use in a talk for our python meetup online meeting_ on how to configure your python project to use TravisCI. The production Django app for this simple Coronavirus KAP tool (Knowledge, Attitudes, and Practice) is available at sarscov2_. The tool is currently being administered in Tanzania.
 
 Installing the sample ``Django`` application
 --------------------------------------------
@@ -120,3 +120,4 @@ References:
 
 .. _sarscov2: https://github.com/erikvw/sarscov2
 
+.. _meeting: https://www.meetup.com/austinpython/events/266446518/
