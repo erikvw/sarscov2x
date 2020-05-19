@@ -1,5 +1,4 @@
-|pypi| |travis| |codecov| |downloads|
-
+|pypi| |travis| |codecov| 
 
 sarscov2x
 =========
@@ -63,5 +62,3 @@ References::
 .. |codecov| image:: https://codecov.io/gh/erikvw/sarscov2x/branch/develop/graph/badge.svg
   :target: https://codecov.io/gh/erikvw/sarscov2x
 
-.. |downloads| image:: https://pepy.tech/badge/sarscov2x
-   :target: https://pepy.tech/project/sarscov2x
