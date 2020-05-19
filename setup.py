@@ -15,13 +15,13 @@ with open(os.path.join(os.path.dirname(__file__), "VERSION")) as f:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name="coronavirus",
+    name="sarscov2x",
     version=VERSION,
     author=u"Erik van Widenfelt",
     author_email="ew2789@gmail.com",
     packages=find_packages(),
     include_package_data=True,
-    url="https://github.com/erikvw/coronavirus",
+    url="https://github.com/erikvw/sarscov2x",
     license="GPL license, see LICENSE",
     description="",
     long_description=README,
