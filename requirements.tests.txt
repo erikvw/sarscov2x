@@ -1,0 +1,3 @@
+model-bakery
+faker
+flake8
