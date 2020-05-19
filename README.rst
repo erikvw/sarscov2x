@@ -48,10 +48,12 @@ Open your browser and navigate to::
     http://localhost:8000
 
 
+References::
 
-https://docs.travis-ci.com/user/tutorial/
+    https://docs.travis-ci.com/user/tutorial/
 
-https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
+    https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
+
 .. |pypi| image:: https://img.shields.io/pypi/v/sarscov2x.svg
     :target: https://pypi.python.org/pypi/sarscov2x
     
