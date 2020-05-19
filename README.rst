@@ -2,9 +2,12 @@
 
 
 sarscov2x
----------
+=========
 
 This is a sample application for use in a talk on how to configure your python project to use TravisCI.
+
+Installing the sample application
+---------------------------------
 
 If you want, you can install the Django app. To do so, follow the steps below.
 
@@ -46,7 +49,9 @@ Open your browser and navigate to::
 
 
 
+https://docs.travis-ci.com/user/tutorial/
 
+https://docs.travis-ci.com/user/tutorial/#to-get-started-with-travis-ci-using-github
 .. |pypi| image:: https://img.shields.io/pypi/v/sarscov2x.svg
     :target: https://pypi.python.org/pypi/sarscov2x
     
