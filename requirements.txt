@@ -1,0 +1,7 @@
+# django
+edc_model
+edc_utils
+edc_constants
+edc_form_validators
+django_audit_fields
+git+https://github.com/erikvw/django-simple-history@admin_revert_permissions2
