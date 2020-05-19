@@ -97,6 +97,6 @@ References::
 
 .. _miniconda: https://docs.conda.io/en/latest/miniconda.html
 
-.. tox_ https://tox.readthedocs.io/en/latest/
+.. tox_: https://tox.readthedocs.io/en/latest/
 
-.. black_ https://black.readthedocs.io/en/stable/
+.. black_: https://black.readthedocs.io/en/stable/
