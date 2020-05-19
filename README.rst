@@ -4,7 +4,9 @@
 sarscov2x
 ---------
 
-This is a sample application for use in a talk how to configure your python project to use TravisCI.
+This is a sample application for use in a talk on how to configure your python project to use TravisCI.
+
+If you want, you can install the Django app. To do so, follow the steps below.
 
 Install conda, check the docs for your OS::
 
