@@ -78,7 +78,7 @@ Configuration
 The config files involved:
 
 * ``.travis.yml``: read by TravisCI. Sets up OS, environment, pre-test commands, tests, post-test commands
-* ``tox.ini``: easy way to run your tests in a fresh environment locallay and to run a matrix of environments remotely on TravisCI
+* ``tox.ini``: easy way to run your tests in a fresh environment locally and to run a matrix of environments remotely on TravisCI
 * ``setup.cfg``: specify ``flake8`` config. ``Flake8`` (PEP8 rules) is good to run before your tests. Less important if you use a formatter like ``black``.
 
 The flow is:
@@ -92,6 +92,7 @@ And if all goes well, your badges turn green!
 
 
 References:
+-----------
 
     https://docs.travis-ci.com/user/tutorial/
 
