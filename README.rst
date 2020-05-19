@@ -89,7 +89,7 @@ The flow is:
 And if all goes well, your badges turn green!
 
 
-References::
+References:
 
     https://docs.travis-ci.com/user/tutorial/
 
