@@ -60,7 +60,7 @@ Other utils
 +++++++++++
 * tox_
 * flake8 (pip install flake8)
-* others (black_, gitflow_, codecov)
+* others (black_, gitflow_, coverage_, codecov_)
 
 Integration with GitHub
 +++++++++++++++++++++++
@@ -102,3 +102,7 @@ References::
 .. _black: https://black.readthedocs.io/en/stable/
 
 .. _gitflow: https://nvie.com/posts/a-successful-git-branching-model/
+
+.. _coverage: https://coverage.readthedocs.io/en/coverage-5.1/
+
+.. _codecov: https://codecov.io
