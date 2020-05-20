@@ -7,6 +7,7 @@ This is a sample ``Django`` application for use in a talk for our python meetup 
 
 There are a number of variations on how this can be done ... this is what works for me.
 
+
 Installing the sample ``Django`` application
 --------------------------------------------
 
